@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C19EADA21E0AC890035CFC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C19EAD921E0AC890035CFC7 /* AppDelegate.m */; };
+		6C19EADD21E0AC890035CFC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C19EADC21E0AC890035CFC7 /* ViewController.m */; };
+		6C19EAE021E0AC8A0035CFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C19EADE21E0AC890035CFC7 /* Main.storyboard */; };
+		6C19EAE221E0AC8B0035CFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C19EAE121E0AC8B0035CFC7 /* Assets.xcassets */; };
+		6C19EAE521E0AC8B0035CFC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C19EAE321E0AC8B0035CFC7 /* LaunchScreen.storyboard */; };
+		6C19EAE821E0AC8B0035CFC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C19EAE721E0AC8B0035CFC7 /* main.m */; };
+		6C19EAF221E0AC8B0035CFC7 /* WLUMStatisticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C19EAF121E0AC8B0035CFC7 /* WLUMStatisticsTests.m */; };
+		6C19EAFD21E0AC8B0035CFC7 /* WLUMStatisticsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C19EAFC21E0AC8B0035CFC7 /* WLUMStatisticsUITests.m */; };
+		6C19EB0B21E0ACC90035CFC7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C19EB0A21E0ACC90035CFC7 /* Podfile */; };
+		6C19EB1121E0AE1A0035CFC7 /* WLUMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C19EB1021E0AE1A0035CFC7 /* WLUMUtil.m */; };
+		A70FBDA3BDC31C9EC41396CA /* Pods_WLUMStatistics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632D1A31D593D570630F64DE /* Pods_WLUMStatistics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C19EAEE21E0AC8B0035CFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C19EACD21E0AC890035CFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C19EAD421E0AC890035CFC7;
+			remoteInfo = WLUMStatistics;
+		};
+		6C19EAF921E0AC8B0035CFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C19EACD21E0AC890035CFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C19EAD421E0AC890035CFC7;
+			remoteInfo = WLUMStatistics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36CB2FE10ABACEFCD34612AD /* Pods-WLUMStatistics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUMStatistics.debug.xcconfig"; path = "Target Support Files/Pods-WLUMStatistics/Pods-WLUMStatistics.debug.xcconfig"; sourceTree = "<group>"; };
+		632D1A31D593D570630F64DE /* Pods_WLUMStatistics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLUMStatistics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C19EAD521E0AC890035CFC7 /* WLUMStatistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLUMStatistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C19EAD821E0AC890035CFC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C19EAD921E0AC890035CFC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C19EADB21E0AC890035CFC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C19EADC21E0AC890035CFC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C19EADF21E0AC890035CFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C19EAE121E0AC8B0035CFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C19EAE421E0AC8B0035CFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C19EAE621E0AC8B0035CFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C19EAE721E0AC8B0035CFC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C19EAED21E0AC8B0035CFC7 /* WLUMStatisticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLUMStatisticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C19EAF121E0AC8B0035CFC7 /* WLUMStatisticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLUMStatisticsTests.m; sourceTree = "<group>"; };
+		6C19EAF321E0AC8B0035CFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C19EAF821E0AC8B0035CFC7 /* WLUMStatisticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLUMStatisticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C19EAFC21E0AC8B0035CFC7 /* WLUMStatisticsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLUMStatisticsUITests.m; sourceTree = "<group>"; };
+		6C19EAFE21E0AC8B0035CFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C19EB0A21E0ACC90035CFC7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C19EB0F21E0AE1A0035CFC7 /* WLUMUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLUMUtil.h; sourceTree = "<group>"; };
+		6C19EB1021E0AE1A0035CFC7 /* WLUMUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLUMUtil.m; sourceTree = "<group>"; };
+		6CFCF44D21E0B13800078146 /* WLUMConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLUMConfig.h; sourceTree = "<group>"; };
+		ABA762298E9C601AB1118FFD /* Pods-WLUMStatistics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUMStatistics.release.xcconfig"; path = "Target Support Files/Pods-WLUMStatistics/Pods-WLUMStatistics.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C19EAD221E0AC890035CFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70FBDA3BDC31C9EC41396CA /* Pods_WLUMStatistics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C19EAEA21E0AC8B0035CFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C19EAF521E0AC8B0035CFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A8FBFCD3231F59026728064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				632D1A31D593D570630F64DE /* Pods_WLUMStatistics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A5AF1E363DFDBD1B6936D2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36CB2FE10ABACEFCD34612AD /* Pods-WLUMStatistics.debug.xcconfig */,
+				ABA762298E9C601AB1118FFD /* Pods-WLUMStatistics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C19EACC21E0AC890035CFC7 = {
+			isa = PBXGroup;
+			children = (
+				6C19EB0A21E0ACC90035CFC7 /* Podfile */,
+				6C19EAD721E0AC890035CFC7 /* WLUMStatistics */,
+				6C19EAF021E0AC8B0035CFC7 /* WLUMStatisticsTests */,
+				6C19EAFB21E0AC8B0035CFC7 /* WLUMStatisticsUITests */,
+				6C19EAD621E0AC890035CFC7 /* Products */,
+				6A5AF1E363DFDBD1B6936D2F /* Pods */,
+				4A8FBFCD3231F59026728064 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C19EAD621E0AC890035CFC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C19EAD521E0AC890035CFC7 /* WLUMStatistics.app */,
+				6C19EAED21E0AC8B0035CFC7 /* WLUMStatisticsTests.xctest */,
+				6C19EAF821E0AC8B0035CFC7 /* WLUMStatisticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C19EAD721E0AC890035CFC7 /* WLUMStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				6C19EB0E21E0ADE40035CFC7 /* Code */,
+				6C19EAD821E0AC890035CFC7 /* AppDelegate.h */,
+				6C19EAD921E0AC890035CFC7 /* AppDelegate.m */,
+				6C19EADB21E0AC890035CFC7 /* ViewController.h */,
+				6C19EADC21E0AC890035CFC7 /* ViewController.m */,
+				6C19EADE21E0AC890035CFC7 /* Main.storyboard */,
+				6C19EAE121E0AC8B0035CFC7 /* Assets.xcassets */,
+				6C19EAE321E0AC8B0035CFC7 /* LaunchScreen.storyboard */,
+				6C19EAE621E0AC8B0035CFC7 /* Info.plist */,
+				6C19EAE721E0AC8B0035CFC7 /* main.m */,
+			);
+			path = WLUMStatistics;
+			sourceTree = "<group>";
+		};
+		6C19EAF021E0AC8B0035CFC7 /* WLUMStatisticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C19EAF121E0AC8B0035CFC7 /* WLUMStatisticsTests.m */,
+				6C19EAF321E0AC8B0035CFC7 /* Info.plist */,
+			);
+			path = WLUMStatisticsTests;
+			sourceTree = "<group>";
+		};
+		6C19EAFB21E0AC8B0035CFC7 /* WLUMStatisticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C19EAFC21E0AC8B0035CFC7 /* WLUMStatisticsUITests.m */,
+				6C19EAFE21E0AC8B0035CFC7 /* Info.plist */,
+			);
+			path = WLUMStatisticsUITests;
+			sourceTree = "<group>";
+		};
+		6C19EB0E21E0ADE40035CFC7 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6C19EB0F21E0AE1A0035CFC7 /* WLUMUtil.h */,
+				6C19EB1021E0AE1A0035CFC7 /* WLUMUtil.m */,
+				6CFCF44D21E0B13800078146 /* WLUMConfig.h */,
+			);
+			name = Code;
+			path = ../../Code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C19EAD421E0AC890035CFC7 /* WLUMStatistics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C19EB0121E0AC8B0035CFC7 /* Build configuration list for PBXNativeTarget "WLUMStatistics" */;
+			buildPhases = (
+				13A54A37B2CA980FA6FC2296 /* [CP] Check Pods Manifest.lock */,
+				6C19EAD121E0AC890035CFC7 /* Sources */,
+				6C19EAD221E0AC890035CFC7 /* Frameworks */,
+				6C19EAD321E0AC890035CFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLUMStatistics;
+			productName = WLUMStatistics;
+			productReference = 6C19EAD521E0AC890035CFC7 /* WLUMStatistics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C19EAEC21E0AC8B0035CFC7 /* WLUMStatisticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C19EB0421E0AC8B0035CFC7 /* Build configuration list for PBXNativeTarget "WLUMStatisticsTests" */;
+			buildPhases = (
+				6C19EAE921E0AC8B0035CFC7 /* Sources */,
+				6C19EAEA21E0AC8B0035CFC7 /* Frameworks */,
+				6C19EAEB21E0AC8B0035CFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C19EAEF21E0AC8B0035CFC7 /* PBXTargetDependency */,
+			);
+			name = WLUMStatisticsTests;
+			productName = WLUMStatisticsTests;
+			productReference = 6C19EAED21E0AC8B0035CFC7 /* WLUMStatisticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C19EAF721E0AC8B0035CFC7 /* WLUMStatisticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C19EB0721E0AC8B0035CFC7 /* Build configuration list for PBXNativeTarget "WLUMStatisticsUITests" */;
+			buildPhases = (
+				6C19EAF421E0AC8B0035CFC7 /* Sources */,
+				6C19EAF521E0AC8B0035CFC7 /* Frameworks */,
+				6C19EAF621E0AC8B0035CFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C19EAFA21E0AC8B0035CFC7 /* PBXTargetDependency */,
+			);
+			name = WLUMStatisticsUITests;
+			productName = WLUMStatisticsUITests;
+			productReference = 6C19EAF821E0AC8B0035CFC7 /* WLUMStatisticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C19EACD21E0AC890035CFC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "three stone 王";
+				TargetAttributes = {
+					6C19EAD421E0AC890035CFC7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6C19EAEC21E0AC8B0035CFC7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6C19EAD421E0AC890035CFC7;
+					};
+					6C19EAF721E0AC8B0035CFC7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6C19EAD421E0AC890035CFC7;
+					};
+				};
+			};
+			buildConfigurationList = 6C19EAD021E0AC890035CFC7 /* Build configuration list for PBXProject "WLUMStatistics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C19EACC21E0AC890035CFC7;
+			productRefGroup = 6C19EAD621E0AC890035CFC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C19EAD421E0AC890035CFC7 /* WLUMStatistics */,
+				6C19EAEC21E0AC8B0035CFC7 /* WLUMStatisticsTests */,
+				6C19EAF721E0AC8B0035CFC7 /* WLUMStatisticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C19EAD321E0AC890035CFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C19EAE521E0AC8B0035CFC7 /* LaunchScreen.storyboard in Resources */,
+				6C19EAE221E0AC8B0035CFC7 /* Assets.xcassets in Resources */,
+				6C19EB0B21E0ACC90035CFC7 /* Podfile in Resources */,
+				6C19EAE021E0AC8A0035CFC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C19EAEB21E0AC8B0035CFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C19EAF621E0AC8B0035CFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A54A37B2CA980FA6FC2296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLUMStatistics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C19EAD121E0AC890035CFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C19EB1121E0AE1A0035CFC7 /* WLUMUtil.m in Sources */,
+				6C19EADD21E0AC890035CFC7 /* ViewController.m in Sources */,
+				6C19EAE821E0AC8B0035CFC7 /* main.m in Sources */,
+				6C19EADA21E0AC890035CFC7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C19EAE921E0AC8B0035CFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C19EAF221E0AC8B0035CFC7 /* WLUMStatisticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C19EAF421E0AC8B0035CFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C19EAFD21E0AC8B0035CFC7 /* WLUMStatisticsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C19EAEF21E0AC8B0035CFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C19EAD421E0AC890035CFC7 /* WLUMStatistics */;
+			targetProxy = 6C19EAEE21E0AC8B0035CFC7 /* PBXContainerItemProxy */;
+		};
+		6C19EAFA21E0AC8B0035CFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C19EAD421E0AC890035CFC7 /* WLUMStatistics */;
+			targetProxy = 6C19EAF921E0AC8B0035CFC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C19EADE21E0AC890035CFC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C19EADF21E0AC890035CFC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C19EAE321E0AC8B0035CFC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C19EAE421E0AC8B0035CFC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C19EAFF21E0AC8B0035CFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C19EB0021E0AC8B0035CFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C19EB0221E0AC8B0035CFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CB2FE10ABACEFCD34612AD /* Pods-WLUMStatistics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F5DLT74B2;
+				INFOPLIST_FILE = WLUMStatistics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiuTouZhu.WLUMStatistics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C19EB0321E0AC8B0035CFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA762298E9C601AB1118FFD /* Pods-WLUMStatistics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F5DLT74B2;
+				INFOPLIST_FILE = WLUMStatistics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiuTouZhu.WLUMStatistics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C19EB0521E0AC8B0035CFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLUMStatisticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiuTouZhu.WLUMStatisticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLUMStatistics.app/WLUMStatistics";
+			};
+			name = Debug;
+		};
+		6C19EB0621E0AC8B0035CFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLUMStatisticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiuTouZhu.WLUMStatisticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLUMStatistics.app/WLUMStatistics";
+			};
+			name = Release;
+		};
+		6C19EB0821E0AC8B0035CFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLUMStatisticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiuTouZhu.WLUMStatisticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WLUMStatistics;
+			};
+			name = Debug;
+		};
+		6C19EB0921E0AC8B0035CFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLUMStatisticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiuTouZhu.WLUMStatisticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WLUMStatistics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C19EAD021E0AC890035CFC7 /* Build configuration list for PBXProject "WLUMStatistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C19EAFF21E0AC8B0035CFC7 /* Debug */,
+				6C19EB0021E0AC8B0035CFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C19EB0121E0AC8B0035CFC7 /* Build configuration list for PBXNativeTarget "WLUMStatistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C19EB0221E0AC8B0035CFC7 /* Debug */,
+				6C19EB0321E0AC8B0035CFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C19EB0421E0AC8B0035CFC7 /* Build configuration list for PBXNativeTarget "WLUMStatisticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C19EB0521E0AC8B0035CFC7 /* Debug */,
+				6C19EB0621E0AC8B0035CFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C19EB0721E0AC8B0035CFC7 /* Build configuration list for PBXNativeTarget "WLUMStatisticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C19EB0821E0AC8B0035CFC7 /* Debug */,
+				6C19EB0921E0AC8B0035CFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C19EACD21E0AC890035CFC7 /* Project object */;
+}
