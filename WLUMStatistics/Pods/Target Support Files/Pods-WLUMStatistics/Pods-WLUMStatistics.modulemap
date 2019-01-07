@@ -1,6 +1,0 @@
-framework module Pods_WLUMStatistics {
-  umbrella header "Pods-WLUMStatistics-umbrella.h"
-
-  export *
-  module * { export * }
-}
