@@ -22,6 +22,10 @@ s.source = { :git => "https://github.com/StoneStoneStoneWang/WLUMStatistics.git"
 
 s.source_files = "Code/**/*.{h,m}"
 
+s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+
+s.static_framework = true
+
 s.dependency 'UMCCommon'
 
 s.dependency 'UMCSecurityPlugins'
