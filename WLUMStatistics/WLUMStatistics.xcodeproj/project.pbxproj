@@ -17,7 +17,7 @@
 		6C19EAFD21E0AC8B0035CFC7 /* WLUMStatisticsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C19EAFC21E0AC8B0035CFC7 /* WLUMStatisticsUITests.m */; };
 		6C19EB0B21E0ACC90035CFC7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C19EB0A21E0ACC90035CFC7 /* Podfile */; };
 		6C19EB1121E0AE1A0035CFC7 /* WLUMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C19EB1021E0AE1A0035CFC7 /* WLUMUtil.m */; };
-		A70FBDA3BDC31C9EC41396CA /* Pods_WLUMStatistics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632D1A31D593D570630F64DE /* Pods_WLUMStatistics.framework */; };
+		713C9E3AD277E8915E4E6F4A /* libPods-WLUMStatistics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B4D1678C5AC55D2A24F575 /* libPods-WLUMStatistics.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		36CB2FE10ABACEFCD34612AD /* Pods-WLUMStatistics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUMStatistics.debug.xcconfig"; path = "Target Support Files/Pods-WLUMStatistics/Pods-WLUMStatistics.debug.xcconfig"; sourceTree = "<group>"; };
-		632D1A31D593D570630F64DE /* Pods_WLUMStatistics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLUMStatistics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B4D1678C5AC55D2A24F575 /* libPods-WLUMStatistics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLUMStatistics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C19EAD521E0AC890035CFC7 /* WLUMStatistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLUMStatistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C19EAD821E0AC890035CFC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C19EAD921E0AC890035CFC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70FBDA3BDC31C9EC41396CA /* Pods_WLUMStatistics.framework in Frameworks */,
+				713C9E3AD277E8915E4E6F4A /* libPods-WLUMStatistics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 		4A8FBFCD3231F59026728064 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				632D1A31D593D570630F64DE /* Pods_WLUMStatistics.framework */,
+				49B4D1678C5AC55D2A24F575 /* libPods-WLUMStatistics.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
