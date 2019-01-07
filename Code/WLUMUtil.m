@@ -7,6 +7,7 @@
 //
 
 #import "WLUMUtil.h"
+#import <UMCommon/UMCommon.h>
 
 static WLUMUtil *manager = nil;
 @implementation WLUMUtil
@@ -17,7 +18,6 @@ static WLUMUtil *manager = nil;
     dispatch_once(&onceToken, ^{
         
         manager = [self new];
-        
     });
     return manager;
 }
