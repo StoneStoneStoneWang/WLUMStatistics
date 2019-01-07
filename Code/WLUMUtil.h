@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 #import <UMCommon/UMCommon.h>
-
-#import <UMAnalytics/MobClick.h>
+//
+//#import <UMAnalytics/MobClick.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WLUMUtil : NSObject

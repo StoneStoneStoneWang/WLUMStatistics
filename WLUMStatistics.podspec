@@ -32,5 +32,7 @@ s.dependency 'UMCSecurityPlugins'
 
 s.dependency 'UMCAnalytics'
 
+#s.prefix_header_contents = '#import <UMCCommon/UMCCommon.h>'
+
 end
 
