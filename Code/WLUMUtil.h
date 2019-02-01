@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)shared;
 
 - (void)regUMAppKey:(NSString *)appkey;
+
+- (BOOL )checkAppKey;
+
 // 0,    // default value
 // 1,    // game
 // 4    // DPlus
