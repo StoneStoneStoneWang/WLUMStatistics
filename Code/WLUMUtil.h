@@ -17,6 +17,14 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)shared;
 
 - (void)regUMAppKey:(NSString *)appkey;
+// 0,    // default value
+// 1,    // game
+// 4    // DPlus
+- (void)setScenarioType:(NSUInteger) stype;
+
+- (void)mobEvent:(NSString *)event;
+
+- (void)setCrashReportEnabled:(BOOL) enabled;
 
 @end
 
